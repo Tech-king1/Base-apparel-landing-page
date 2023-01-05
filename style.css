@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-y: hidden;
+}
+
+
+.img-fluid {
+    background-position: center center;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.hero{
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+p.hero{
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    body {
+      background: url("imgs/bg-pattern-desktop.svg") no-repeat center/cover;
+    }
+
+.super{
+    padding: 5em 9em 6em 8em;
+}
+
+h1{
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+
+
+div.col-md-5{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+}
+
+form {
+    position: relative;
+  }
+  
+  form input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid hsl(0, 6%, 24%);
+    border-radius: 30px;
+    width: 100%;
+    margin: 2rem 0 0;
+    color: hsl(0, 6%, 24%);
+    border: 1px solid red;
+  }
+  
+  form input::placeholder {
+    color: hsl(0, 6%, 24%);
+    font-weight: 400;
+  }
+  
+  form label {
+    position: absolute;
+    top: 35%;
+    transform: translateY(35%);
+    right: 5.5rem;
+    display: none;
+  }
+  
+  form button {
+    position: absolute;
+    top: 65%;
+    right: -0.5rem;
+    transform: translateY(-65%);
+  
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  form button:hover {
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 80%, 86%));
+  }
+  /* End of code that breaks */
+  
+  .error {
+    color: hsl(0, 93%, 68%) !important;
+    text-align: left;
+    margin-top: 0.5rem;
+    display: none;
+  }
+  
+
